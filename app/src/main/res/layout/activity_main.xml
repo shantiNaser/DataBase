@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/int456" />
+
+
+    <Button
+        android:id="@+id/ins"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="532dp"
+        android:background="@drawable/customebutton"
+        android:drawableLeft="@drawable/addf"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:shadowColor="#C242F1"
+        android:text="Insert a new Employee"
+        android:textColor="#ffff"
+        android:textSize="17dp" />
+
+
+    <Button
+        android:id="@+id/DD"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="443dp"
+        android:background="@drawable/customebutton"
+        android:drawableLeft="@drawable/delete"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:shadowColor="#C242F1"
+        android:text="Delete an Employee"
+        android:textColor="#ffff"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/SN"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="353dp"
+        android:background="@drawable/customebutton"
+        android:drawableLeft="@drawable/search"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:shadowColor="#C242F1"
+        android:text="Search  Employee"
+        android:textColor="#ffff"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/MO"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/customebutton"
+        android:drawableLeft="@drawable/pencil"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:shadowColor="#C242F1"
+        android:text="modify certain record"
+        android:textColor="#ffff"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/rcrc"
+        android:layout_width="280dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/customebutton"
+        android:drawableLeft="@drawable/list"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:shadowColor="#C242F1"
+        android:text="Display all Records"
+        android:textColor="#ffff"
+        android:textSize="17dp" />
+
+</RelativeLayout>

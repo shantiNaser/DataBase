@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Database hw</string>
+    
+    <string-array name="Employee">
+        <item>Emp1</item>
+        <item>Emp2</item>
+        <item>Emp3</item>
+        <item>Emp4</item>
+        <item>Emp5</item>
+    </string-array>
+
+    <string-array name="Employee_Information">
+        <item>Name</item>
+        <item>ID</item>
+        <item>Sex</item>
+        <item>BaseSalary</item>
+        <item>TotallSalry</item>
+        <item>Commission Rate</item>
+    </string-array>
+
+
+
+    
+    
+</resources>
